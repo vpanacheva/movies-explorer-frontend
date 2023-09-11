@@ -1,1 +1,1 @@
-# movies-explorer-frontend
+Макет из Figma: Dark - 2 

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4155f24d.css",
+    "main.js": "/static/js/main.1a7d0244.js",
+    "static/js/787.5fef94a4.chunk.js": "/static/js/787.5fef94a4.chunk.js",
+    "static/media/student-pic.png": "/static/media/student-pic.044af003621d9bac1c87.png",
+    "static/media/Inter-500.woff": "/static/media/Inter-500.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-900.woff": "/static/media/Inter-900.c6938660eec019fefd68.woff",
+    "static/media/Inter-400.woff": "/static/media/Inter-400.8c206db99195777c6769.woff",
+    "static/media/Inter-500.woff2": "/static/media/Inter-500.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-900.woff2": "/static/media/Inter-900.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-400.woff2": "/static/media/Inter-400.c8ba52b05a9ef10f4758.woff2",
+    "static/media/harvey.png": "/static/media/harvey.311ec96b3f0e393d275c.png",
+    "static/media/savemovie-button.svg": "/static/media/savemovie-button.b3d8109d17b3fec1231b.svg",
+    "index.html": "/index.html",
+    "static/media/search-button.svg": "/static/media/search-button.4bc12a31f6a365e36769.svg",
+    "static/media/removemovie.svg": "/static/media/removemovie.fd329cf931de1cb2b8d9.svg",
+    "static/media/logo.svg": "/static/media/logo.25a2943c9f92a986c1fa6c2157b97a2f.svg",
+    "static/media/burger-menu.svg": "/static/media/burger-menu.111cfc3a3545a9ff785c.svg",
+    "static/media/close-button.svg": "/static/media/close-button.128b4b070d39259dc44e.svg",
+    "static/media/savedmovie-button.svg": "/static/media/savedmovie-button.05d8e33ceef298e0e7e6.svg",
+    "static/media/filter-off.svg": "/static/media/filter-off.ab0c4bcf436e08431ecc.svg",
+    "static/media/filter-on.svg": "/static/media/filter-on.10e364f65b654eb377bd.svg",
+    "main.4155f24d.css.map": "/static/css/main.4155f24d.css.map",
+    "main.1a7d0244.js.map": "/static/js/main.1a7d0244.js.map",
+    "787.5fef94a4.chunk.js.map": "/static/js/787.5fef94a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4155f24d.css",
+    "static/js/main.1a7d0244.js"
+  ]
+}
