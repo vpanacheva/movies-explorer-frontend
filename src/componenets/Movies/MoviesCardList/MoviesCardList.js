@@ -4,11 +4,11 @@ import MoviesCard from '../MoviesCard/MoviesCard.js'
 
 function MoviesCardList({ card, cards }) {
   return (
-    <section className='moviescardlist'>
-      <div className='moviescardlist__list'>
+    <ul className='moviescardlist'>
+      <li className='moviescardlist__list'>
         {cards.map((card, index) => (<MoviesCard key={index} />))}
-      </div>
-    </section>
+      </li>
+    </ul>
   )
 }
 

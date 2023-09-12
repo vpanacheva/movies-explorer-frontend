@@ -9,7 +9,7 @@ function MoviesCard() {
   return (
     <article className='card'>
       <a href='https://www.youtube.com/watch?v=_zIK7IloRM4' className='card__link link' target='_blank' rel='noreferrer'>
-        <img className='card__pic' src={MoviePoster} alt='Постер к фильму' />
+        <img className='card__pic' src={MoviePoster} alt={MoviePoster.name} />
       </a>
       {location.pathname === '/movies' && (<button className='card__button_save' type='button'></button>)}
       {location.pathname === '/saved-movies' && (<button className='card__button_remove' type='button'></button>)}

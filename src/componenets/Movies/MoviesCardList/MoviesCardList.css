@@ -22,12 +22,13 @@
 @media screen and (max-width: 1140px) {
   .moviescardlist__list {
     max-width: 1000px;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 768px) {
   .moviescardlist__list {
-    max-width: 708px;
+    max-width: 700px;
     row-gap: 90px
     ;
   }

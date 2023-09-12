@@ -170,6 +170,8 @@
   .navigation__link {
     margin: 0;
     font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
   }
 
   .navigation__link_active {

@@ -37,7 +37,7 @@
 
 .profile__name {
   width: 100%;
-  margin: 12px 0 0 0;
+  margin: 8px 0 0 0;
   padding: 3px 0 0 0;
   font-size: 11px;
   font-weight: 500;
@@ -53,11 +53,12 @@
   color: #fff;
   border: none;
   text-align: right;
-  font-family: Inter;
   font-size: 11px;
   font-weight: 400;
   line-height: normal;
   background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #a0a0a0;
 }
 
 .profile__line {

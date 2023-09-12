@@ -13,11 +13,10 @@ const Header = ({ loggedIn }) => {
       <Link to='/' className='header__link link'>
         {<img className='header__logo' src={logo} alt='Логотип' />}
       </Link>
-      {!loggedIn && <LoginNavigation/>  
+      {!loggedIn && <LoginNavigation/> 
       }
       {loggedIn && <Navigation/>
-      }
-      {/* <Link to='/profile' className='headernav__link headernav__link_profile' activeclassname='headernav__link_active'>Аккаунт</Link> */}
+}
     </header>
   )
 }

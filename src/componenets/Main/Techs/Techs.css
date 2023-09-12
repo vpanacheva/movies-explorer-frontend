@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 850px) {
   .techs__title {
-    max-width: 668px;
+    max-width: 100%;
     margin: 90px 0 60px 0px;
     font-size: 22px;
     letter-spacing: -1px;

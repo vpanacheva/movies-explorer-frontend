@@ -1,5 +1,3 @@
-//почему так больно делать эту работу...
-
 import '../../index.css';
 import './App.css';
 import Main from '../Main/Main.js';
@@ -11,9 +9,12 @@ import Login from '../Login/Login.js';
 import NotFoundError from '../NotFoundError/NotFoundError.js';
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
+// import Header from '../Header/Header';
+// import LoginNavigation from '../LoginNavigation/LoginNavigation';
+// import Navigation from '../Navigation/Navigation';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn] = useState(true);
 
   const cards = 12;
   const savedCards = 4;
