@@ -72,8 +72,11 @@
   line-height: 18px;
   text-decoration: none;
   text-align: right;
+  transition: 0.3s ease-in-out;
 }
-
+.navigation__link:hover {
+  opacity: 0.7;
+}
 .navigation__links_block {
   display: block;
   margin-right: 16px;
@@ -81,6 +84,10 @@
 
 .navigation__link_active {
   font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.navigation__link_active:hover {
+  opacity: 0.7;
 }
 
 .navigation__link:nth-child(1) {
@@ -100,10 +107,13 @@
   border-radius: 20px;
   font-size: 14px;
   font-style: normal;
+  transition: 0.3s ease-in-out;
   font-weight: 500;
   line-height: 16px;
 }
-
+.navigation__profile-button:hover {
+  opacity: 0.7;
+}
 .navigation__link_profile {
   margin: 3px 5px 0px 0px;
   width: 100px;
@@ -119,6 +129,10 @@
   margin: 0;
   font-size: 14px;
   color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.navigation__link_profile:hover {
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 880px) {
@@ -170,8 +184,6 @@
   .navigation__link {
     margin: 0;
     font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
   }
 
   .navigation__link_active {

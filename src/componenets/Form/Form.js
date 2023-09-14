@@ -11,7 +11,7 @@ function Form(props) {
         <Link to='/' className='form__link'>
           <img className='form__logo' src={logo} alt='Логотип'></img>
         </Link>
-        <h2 className='form__name'>{header}</h2>
+        <h1 className='form__name'>{header}</h1>
         <form className='form__content'>
           <div className='form__inputs'>{children}</div>
           <button type='submit' className='form__button button' disabled>{submit}</button>

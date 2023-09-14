@@ -80,6 +80,8 @@
   max-height: 21px;
   height: 100%;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
   border: none;
   background: url(../../../images/savemovie-button.svg) transparent no-repeat center;
   cursor: pointer;
@@ -97,7 +99,6 @@
   height: 100%;
   border: none;
   background: url(../../../images/savedmovie-button.svg) transparent no-repeat center;
-  cursor: pointer;
 }
 
 .card__button_remove {
@@ -116,14 +117,17 @@
 
 .card__button_remove:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .card__button_save:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .card__button_saved:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 768px) {

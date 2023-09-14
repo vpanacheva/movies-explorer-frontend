@@ -11,7 +11,7 @@ function Login() {
         link='Регистрация'
         path='/signup'
       >
-        <div className='form__input'>
+        <label className='form__input'>
           <p className='form__input-name'>E-mail</p>
           <input
             type='email'
@@ -20,9 +20,9 @@ function Login() {
             required
           />
           <p className='form__error'>Что-то пошло не так...</p>
-        </div>
+        </label>
 
-        <div className='form__input'>
+        <label className='form__input'>
           <p className='form__input-name'>Пароль</p>
           <input
             type='password'
@@ -35,7 +35,7 @@ function Login() {
           <p className='form__error form__error-display'>
             Что-то пошло не так...
           </p>
-        </div>
+        </label>
       </Form>
     </main>
   )

@@ -34,14 +34,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .moviescardlist {
     margin: 15px 0 10px 0
   }
 
   .moviescardlist__list {
     margin-top: 18px;
-    max-width: 320px;
+    max-width: 300px;
     row-gap: 50px;
   }
 }

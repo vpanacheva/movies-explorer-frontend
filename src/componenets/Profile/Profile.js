@@ -8,7 +8,6 @@ const Profile = () => {
   const [name] = useState('Виталий');
   const [email] = useState('pochta@yandex.ru');
   return (
-    
     <main className='profile'>
       <section className='profile_container'>
         <form className='profile__form'>
@@ -38,9 +37,9 @@ const Profile = () => {
           </label>
            
         </form>
-        <div className='profile__form' action='/profile'>
-          <input type='submit' className='profile__button' placeholder='Редактировать' value='Редактировать'/>
-        </div>
+        <form className='profile__form' action='/profile'>
+          <input type='submit' className='profile__button' value='Редактировать'/>
+        </form>
         <Link to='/' className='profile__link'>Выйти из аккаунта</Link>
       </section>
     </main>
