@@ -106,7 +106,7 @@
     max-width: 500px;
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .footer__content {
     max-width: 350px;
   }
