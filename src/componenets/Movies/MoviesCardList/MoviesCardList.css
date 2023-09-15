@@ -10,13 +10,13 @@
 
 .moviescardlist__list {
   margin: 0 auto;
-  margin-top: 30px;
   max-width: 1140px;
   width: 100%;
   display: flex;
   gap: 30px;
   row-gap: 56px;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 @media screen and (max-width: 1140px) {
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .moviescardlist__list {
-    max-width: 700px;
+    max-width: 768px;
     row-gap: 90px
     ;
   }
@@ -40,7 +40,7 @@
   }
 
   .moviescardlist__list {
-    margin-top: 18px;
+    margin: 18px auto 0;
     max-width: 300px;
     row-gap: 50px;
   }
